@@ -15,10 +15,10 @@ import (
 	"strconv"
 
 	"golang.org/x/sys/unix"
-	"golang.zx2c4.com/wireguard/conn"
-	"golang.zx2c4.com/wireguard/device"
-	"golang.zx2c4.com/wireguard/ipc"
-	"golang.zx2c4.com/wireguard/tun"
+	"github.com/ufovpn-ru/wireguard-go/conn"
+	"github.com/ufovpn-ru/wireguard-go/device"
+	"github.com/ufovpn-ru/wireguard-go/ipc"
+	"github.com/ufovpn-ru/wireguard-go/tun"
 )
 
 const (
